@@ -1,4 +1,9 @@
 {
     "framework": null,
     "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }]
+    "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  }
 }
